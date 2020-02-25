@@ -32,7 +32,6 @@ body {
   background-size: cover;
   margin-top: 30px;
   border: 10px solid #fff;
-
 }
 #logo {
   position: absolute;
@@ -41,7 +40,6 @@ body {
   transform: translate(-50%, -50%);
   width: 600px;
   height: auto;
-
 }
 #written {
   position: absolute;
