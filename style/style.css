@@ -57,23 +57,35 @@ body {
   padding: 20px;
 }
 
-/* style navbar */
+/* style navigation menu */
 .main-navigation {
-  height: 80px;
-  background-color: #aaa;
+  height: 50px;
+  background-color: #B7B0AE;
   text-align: center;
-  line-height: 80px;
+  line-height: 50px;
+  padding: 0 10px;
+}
+#menu {
+  padding: 0 201px;
 }
 #menu li {
   list-style: none;
   display: inline-block;
 }
-#main-menu li a {
+#menu li a {
   display: inline-block;
   padding: 0 15px;
   border-bottom: 3px solid transparent;
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 550;
 }
-
+#menu li a:hover {
+  border-color: #313ADE;
+}
 /* style for columns */
 .col  {
   float: left;
