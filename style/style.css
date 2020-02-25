@@ -92,26 +92,23 @@ body {
 }
 .col-1 {
   width: 25%;
-  background-color: rgba(255, 0, 0, 0.1);
   padding-right: 16px;
 }
 .col-2 {
   width: 50%;
-  background-color: rgba(0, 255, 0, 0.1);
   padding: 0 16px;
 }
 .col-3 {
   width: 25%;
-  background-color: rgba(0, 0, 255, 0.1);
   padding-left: 16px;
 }
 
 /* style box inside columns */
 .box {
   width: 100%;
-  /* height: 400px; */
-  background-color: #ccc;
+  background-color: #fff;
   margin-bottom: 32px;
+  border-radius: 10px;
   font-family: 'Roboto';
 }
 
@@ -121,7 +118,7 @@ body {
   font-size: 22px;
   display: inline-block;
   float: left;
-  padding: 26px;
+  padding: 10px;
 }
 .box-title {
   position: relative;
@@ -146,7 +143,23 @@ body {
   color: green;
   font-weight: bold;
   padding: 10px 0;
+}
+/* style central box */
+.title-principal {
+  text-transform: uppercase;
+  color: #6B2C1B;
+  padding: 10px;
+  font-weight: 700;
+}
+.post-principal {
+  padding: 10px;
+  line-height: 35px;
+}
 
+/* style for Widgets */
+.title-widget {
+  color: #6B2C1B;
+  padding: 10px;
 }
 
 /* style footer */
