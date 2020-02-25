@@ -165,13 +165,19 @@ body {
 /* style footer */
 .main-footer {
   text-align: center;
+  margin-bottom: 30px;
 }
 .footer-text {
-  height: 40px;
-  background-color: #aaa;
+  height: 25px;
+  padding-top: 3px;
+  font-family: 'Roboto';
+  background-color: #fff;
+  color: #aaa;
+  border-bottom: 3px solid #aaa;
 }
 .socials {
   padding: 0;
+  background-color: #fff;
 }
 .socials li {
   list-style: none;
@@ -179,5 +185,6 @@ body {
   width: calc(100% / 3);
   height: 80px;
   line-height: 80px;
-
+  font-size: 30px;
+  color: #aaa;
 }
